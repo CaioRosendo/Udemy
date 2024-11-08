@@ -61,6 +61,10 @@ main > div > img {
     margin: auto;
 }
 
+main p {
+    text-align: justify;
+}
+
 main > div#direita {
    background-color: white;
    float: right;
