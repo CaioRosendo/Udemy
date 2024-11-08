@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px; padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(235, 168, 43);
+    text-align: center;
+    height: 10vh;
+    padding: 10px;
+    margin: 10px;
+}
+
+header span{
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px;
+}
+
+header a:hover {
+    background-color: white;
+    color:rgb(235, 168, 43) ;
+}
+
+main {
+    width: 80vw;
+    margin: 0px auto;  
+}
+
+main > div.post {
+    float: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 54vw;
+}
+
+main > div.post > h1 {
+    color: rgb(235, 168, 43);
+}
+span.data {
+    padding-left: 3px;
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+}
+
+main > div > img {
+    padding: 10px;
+    width: 50vw;
+    display: block;
+    margin: auto;
+}
+
+main > div#direita {
+   background-color: white;
+   float: right;
+   width: 20vw;
+   border-radius: 10px;
+   padding: 3px;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(235, 168, 43);
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main h2 {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(235, 168, 43);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover {
+    color: rgb(235, 168, 43);
+    background-color: white;
+}
